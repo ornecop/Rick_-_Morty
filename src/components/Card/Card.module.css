@@ -1,0 +1,50 @@
+.conteiner {
+    background: linear-gradient(20deg, #caf729, #53ac59 );
+    border: 3px solid #0f684b;
+    border-radius: 10px;
+    width: 180px;
+    padding: 10px;
+}
+
+.image {
+    width: 98%;
+    border-radius: 10px;
+}
+
+.buttonconteiner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonconteiner button {
+    background-color: #caf729;
+    border: none;
+    border-radius: 3px;
+    margin: 3px 3px 0 0;
+    color: black;
+    cursor: pointer;
+}
+
+.buttonconteiner button:hover {
+    background-color: #f5061d;
+    color: whitesmoke;
+}
+
+.buttonconteiner button:active {
+    background-color: #6d6c6c;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0,5);
+    transform: translateY(1px);
+  }
+.data {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(36, 36, 36);
+    color: #0f684b;
+}
+
+.title {
+    color: rgb(23, 23, 23);
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: whitesmoke;
+}

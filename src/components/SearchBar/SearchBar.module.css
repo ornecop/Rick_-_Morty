@@ -1,0 +1,32 @@
+.conteiner {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.cointeiner input {
+    border-radius: 5px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.conteiner button {
+    height: 30px;
+    background-color:#caf729;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+.conteiner button:hover {
+    background-color: #f5061d;
+    color: whitesmoke;
+}
+
+.conteiner button:active {
+    background-color: #6d6c6c;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    transform: translateY(1px);
+}
