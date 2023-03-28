@@ -12,7 +12,7 @@ export default function Card(props) {
          <div className={styles.data}>
             <h4>{props.species}</h4>
             <h4>{props.gender}</h4>
-         </div>y
+         </div>
       </div>
    );
 }

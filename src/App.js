@@ -4,13 +4,6 @@ import Cards from './components/Cards/Cards'
 import NavBar from './components/Nav/NavBar'
 
 function App () {
-  const example = {
-    name: 'Morty Smith',
-    species: 'Human',
-    gender: 'Male',
-    image: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg',
- };
-
 const [ characters, setCharacters ] = useState ([]);
 
 function onSearch(character) {

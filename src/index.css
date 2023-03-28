@@ -6,8 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./Images/cats.jpg');
-  background-size: cover;
-  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
 
 code {
