@@ -1,6 +1,6 @@
 import React from "react";
 import SearchBar from "../SearchBar/SearchBar";
-import styles from '../Nav/NavBar.module.css'
+import styles from './NavBar.module.css'
 
 export default function Nav(props) {
     return (
